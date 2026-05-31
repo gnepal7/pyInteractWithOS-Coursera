@@ -1,0 +1,4 @@
+To increase security of the reports stored in the system.
+To make it easier for users to access and analyze data from the CRM system.
+To improve the accuracy and consistency of reports.
+To save time and effort by automating the process of generating reports.
