@@ -1,0 +1,23 @@
+Basic Linux Commands (Short Form)
+mv :- Move or rename files/directories
+cp :- Copy files or directories
+chmod :- Change file permissions (read/write/execute)
+chown :- Change file owner
+chgrp :- Change file group
+
+
+File Content Commands
+cut :- Extract specific fields or columns from a file
+sort :- Sort file contents alphabetically or numerically
+-r :- reverse order
+-n :- numeric sort
+
+Command Combination
+| (pipe) :- Pass output of one command to another
+ls -l | cut | sort | head :- Find and display top results (e.g., largest files)
+
+
+System Info Commands
+id :- Show current user ID, group ID, and permissions info
+free :- Show memory usage of the system
+-h :- human-readable format
