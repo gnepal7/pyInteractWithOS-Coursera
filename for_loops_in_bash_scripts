@@ -1,1 +1,24 @@
+cat fruits.sh
+
+for file in *.HTM; do
+        name=$(basename "$file" .HTM)
+        mv "$file" "$name.html" 
+done 
+
+
+#!/bin/bash
+for file in *.HTM; do
+        name=$(basename "$file" .HTM)
+        echo mv "$file" "$name.html" 
+done
+
+/old_website$ chmod +x rename.sh
+/old_website$ ./rename.sh 
+
+/old_website$ ./rename.sh 
+/old_website$
+/old_website$ ls -l
+
+
+ls -l 
 
