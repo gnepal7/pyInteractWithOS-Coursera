@@ -1,1 +1,25 @@
+n=1
+while [ $n -le 5 ]; do
+  echo "Iteration number $n"
+  ((n+=1))
+done
+
+import sys
+import random
+
+value = random.randint(0, 3)
+print("Returning: " + str(value))
+sys.exit(value)
+
+n=0
+command=$1
+while ! $command && [ $n -le 5 ]; do
+        sleep $n
+        ((n+=1))
+        echo "Retry #$n"
+done;
+
+
+./retry.sh ./random-exit.py
+
 
