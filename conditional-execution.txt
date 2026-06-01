@@ -1,1 +1,14 @@
+cat check_localhost.sh 
+
+./check_localhost.sh 
+# output:- 127.0.0.1	localhost
+
+if test -n "$PATH"; then echo "Your path is not empty"; fi
+if [ -n "$PATH" ]; then echo "Your path is not empty"; fi
+# output:- Your path is not empty
+
+
+
+
+
 
